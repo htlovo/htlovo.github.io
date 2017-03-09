@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../css/index.css">
+	<title>css层叠</title>
+</head>
+<body>
+	<div id="head"></div>
+	<main>
+		<article>
+			<h1>CSS层叠</h1>
+			
+			<h2>css2.1层叠规则：</h2><ol>
+			
+				<li>找出所有相关的规则，这些规则都包含一个与给定元素匹配的选择器。</li>
+				<li>按显式权重对应用到该元素的所有声明排序。</li>
+				<li>按特殊性对应用到给定元素的所有声明排序。</li>
+				<li>按出现顺序对应用到给定元素的所有声明排序。</li>
+			</ol>
+			<h2>具体判断方法：</h2>
+			<ol>
+			<li>首先按声明是否重要（!important）和来源排序，权重由大到小的顺序依次为：
+				<ol>
+					<li>读者的重要声明</li>
+					<li>创作人员的重要声明</li>
+					<li>创作人员的正常声明</li>
+					<li>读者的正常声明</li>
+					<li>用户代理声明</li>
+				</ol>
+			</li>
+			<li>若权重相等则按特殊性排序，特殊性大的优先于特殊性小的：
+				<ol>
+					<li>内联声明（style属性声明）特殊性为1，0，0，0</li>
+					<li>ID选择器特殊性为0，1，0，0</li>
+					<li>类、属性、伪类选择器特殊性为0，0，1，0</li>
+					<li>元素、伪元素选择器特殊性为0，0，0，1</li>
+				</ol>
+				<ul>
+					<li>通配符选择器对特殊性没有任何贡献，其特殊性为0，0，0，0</li>
+					<li>结合符没有特殊性，连0特殊性都没有，因此他们对选择器的总特殊性没有任何影响</li>
+					<li>组合选择器特殊性为各选择器特殊性相加。</li>
+				</ul>
+			</li>
+			<li>若特殊性相等则按顺序排序，顺序在后面优先级的前面的。</li>
+			</ol>
+			<h2>注：</h2>
+			<ul>
+				<li>CSS2中，内联样式声明与ID选择器的特殊性相等，都是1，0，0。在一个CSS2用户代理中,认为style属性声明出现在文档样式表的最后，并且与样式表中所有其他声明一样，按权重，来源，特殊性和顺序排序。CSS2.1中内联声明特殊性为提升为1，0，0，0。</li>
+				<li>非CSS的表现提示，如font元素，被处理为特殊性为0，并出现在创作人员样式表的最前面。只要有创作人员或读者样式，这种表现就会被覆盖，即也会被通配符选择器声明覆盖，但是用户代理的样式不能将其覆盖。（创作人员的非表现提示会被读者的正常声明覆盖吗？）</li>
+				<li>继承的值没有特殊性，甚至连0特殊性都没有，而0特殊性比没特殊性要强。用户代理的样式也会覆盖继承的样式。</li>
+				<li>嵌入式样式表与外联式样式表、导入式样式表之间没有优先级关系，按上述规则确定谁的优先级高。</li>
+			</ul>
+			<h2>来源：</h2>
+			<ul>
+				<li>css权威指南（第三版）</li>
+				<li>html和css基础教程（第8版）</li>
+				<li>精通CSS:高级web标准解决方案（第2版）</li>
+			</ul>
+		</article>
+	</main>
+	<div id="foot"></div>
+	<div title="跳转" class="square">
+	<ul>
+		<li><a href="../index.html">首页</a></li>
+		<li><a href="../bmig.html">编程</a>
+			<ul>
+				<li><a href="">HTML</a></li>
+				<li><a href="">CSS</a></li>
+				<li><a href="">JS</a></li>
+				<li><a href="">单词</a></li>
+			</ul>
+		</li>
+		<li><a href="../jmkh.html">健康</a>
+			<ul>
+				<li><a href="">运动</a></li>
+				<li><a href="">餐饮</a></li>
+				<li><a href="">医药</a></li>
+			</ul>
+		</li>
+		<li><a href="">计划</a></li>
+	</ul>
+	</div>
+	<a title="首页" class="circle" href="../index.html"></a>
+	<a title="顶部" class="triangleLeft" href="#head"></a>
+	<a title="底部" class="triangleRight" href="#foot"></a>
+	
+</body>
+</html>
