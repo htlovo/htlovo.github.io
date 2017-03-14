@@ -1,7 +1,7 @@
 
 	/*导航链接*/
 	nav a,header>a,header>div,main,aside,footer{
-		box-shadow: 2px 2px 2px 1px #aaf;
+		box-shadow: 1px 1px 1px 1px #aaf;
 	} 
 	nav a{
 		transition: all 0.1s linear 0s;
@@ -17,7 +17,7 @@
 	nav a:hover,nav a:focus{
 		color: #fff;
 		background-color: #99f;
-		box-shadow: -1px -1px 0 0 black inset, -1px -1px 0 0 #99f,2px 2px 2px 2px #77f;
+		box-shadow: -1px -1px 0 0 #555 inset, -1px -1px 0 0 #99f,1px 1px 1px 1px #aaf;
 	}
 	nav a:active{
 		background-color: #009;
