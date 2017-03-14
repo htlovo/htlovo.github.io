@@ -6,8 +6,6 @@ section{
 	border-radius: 0.5em;
 	padding:0.5em;
 	background-color: #ccc;
-	width:18em;
-	display: inline-block;
 	vertical-align: top;
 }
 section p{
@@ -17,42 +15,11 @@ h2{
 	font:1.5em/1em 黑体;
 }
 section img{
-	width:100%;
+	display: none;
 }
 article{
-	text-align: center;
 	background-color: #ddd;
 	margin: 0 auto;
 	width: calc(100% - 5em);
 	min-width: 20em;
-}
-ul,ol{
-	border-radius: 0.5em;
-	background-color: #ccc;
-	padding: 0.5em;
-}
-ul ul,ol ol,ul ol,ol ul{
-	border-radius: 0.5em;
-	padding: 0.5em;
-	background-color: #bbb;
-}
-li{
-	overflow: hidden;
-	list-style-position:  inside;
-	background-color: #aaa;
-}
-li li{
-	background-color: #999;
-}
-ul li{
-	list-style-type: circle;
-}
-ul ul>li,ol ul>li{
-	list-style-type: square;
-}
-ol li{
-	list-style-type: cjk-ideographic;
-}
-ol ol>li,ul ol>li{
-	list-style-type: decimal;
 }

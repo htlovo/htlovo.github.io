@@ -60,6 +60,9 @@
 		min-width: 25em;
 	}
 		/*注册*/
+		header>div>ul{
+			display: none;
+		}
 		header>div>ul,header>div>ul li{
 			float: right;
 		}
