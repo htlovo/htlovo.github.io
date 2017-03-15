@@ -26,6 +26,10 @@
 		background-color: #009;
 		box-shadow: 1px 1px 1px 0 black inset;
 	}
+	nav ul{
+		padding:0;
+		background-color: transparent;
+	}
 	nav li li a,nav li a{
 		background-color: #aaf;
 	}
@@ -92,8 +96,8 @@
 		}
 /*body*/
 .body{
-	height:18em;
-	min-height: calc(100% - 10em);
+	height:calc(100% - 10em);
+	min-height:20em;
 }
 
 /*bodyaside*/
@@ -134,6 +138,23 @@ aside nav a{
 	min-width: 23.5em;
 	float:right;
 	min-height: calc(100% - 1.5em);
+}
+section{
+	background-color: #bbf;
+	margin:1em 0;
+}
+section ul{
+	height:5em;
+	overflow-y: auto;
+}
+section.programming,section.health{
+	width:33.3%;
+}
+section.programming{
+	float:left;
+}
+section.health{
+	float:right;
 }
 /*表单*/
 fieldset{

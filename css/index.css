@@ -2,6 +2,12 @@
 article, aside, details, div, dt, figcaption, footer, form, header, hgroup, html, main, nav, article, summary {
     display: block;
 }
+ul,ol,ul ul,ol ol,ul ol,ol ul{
+	background-color: #ccf;
+}
+ul ul,ol ol,ul ol,ol ul{
+	background-color: #bbf;
+}
 *{
 	border:none;
 	outline:none;
