@@ -22,3 +22,23 @@ firstChild属性
 	node.firstChild，等价于node.childNodes[0],
 lastChild属性
 	node.lastChild,childNodes数组的最后一个元素，
+
+write方法,HTML专有
+	document.write("hello"),传统方法，建议避免使用
+innerHTML属性,HTML专有
+	不建议使用
+createElement方法
+	document.createElement(nodeName)，创建一个新的元素，最好要赋给一个变量
+appendChild方法
+	parent.appendChild(child)，将child插入到parent最后一个子元素后
+createTextNode方法
+	document.createTextNode(text)，创建一个文本节点
+insertBefore方法
+	父元素.insertBefore(新元素,目标元素),将新元素插入到父元素下目标元素的前面
+parentNode属性
+	元素的父元素
+nextSibling属性
+	元素的下一个兄弟元素
+
+style属性
+	某个元素的属性，是一个对象

@@ -1,27 +1,31 @@
 /*纯文本内容*/
-{
-	background-color: #ddd;
-	margin: 0 auto;
+article h1{
+	text-align: center;
+}
+main{
+	background-color: #ddf;
+	margin: 1em auto;
 	width: calc(100% - 5em);
 	min-width: 20em;
+	box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
 }
 ul,ol{
 	border-radius: 0.5em;
-	background-color: #ccc;
+	background-color: #ccf;
 	padding: 0.5em;
 }
 ul ul,ol ol,ul ol,ol ul{
 	border-radius: 0.5em;
 	padding: 0.5em;
-	background-color: #bbb;
+	background-color: #bbf;
 }
 li{
 	overflow: hidden;
 	list-style-position:  inside;
-	background-color: #aaa;
+	background-color: #aaf;
 }
 li li{
-	background-color: #999;
+	background-color: #99f;
 }
 ul li{
 	list-style-type: circle;

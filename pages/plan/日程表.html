@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../css/index.css">
+	<link rel="stylesheet" href="../../css/text.css">
+	<title>css层叠</title>
+</head>
+<body>
+	<div id="head"></div>
+	<main>
+		<article>
+			<h1>日程表</h1>
+			<table>
+				<tr>
+					<th>时间</th> <th>内容</th>
+				</tr>
+				<tr>
+					<td>6:00</td> <td>起床 洗漱 锻炼 吃饭 休息</td>
+				</tr>
+				<tr>
+					<td>8:00</td> <td>前端</td>
+				</tr>
+				<tr>
+					<td>11:00</td> <td>锻炼 吃饭 睡觉</td>
+				</tr>
+				<tr>
+					<td>14:00</td> <td>起床 锻炼 练字</td>
+				</tr>
+				<tr>
+					<td>15:00</td> <td>前端</td>
+				</tr>
+				<tr>
+					<td>18:00</td> <td>锻炼 吃饭  剪指甲 微信 读书</td>
+				</tr>
+				<tr>
+					<td>22:00</td> <td>按摩手脚 打坐 锻炼 睡觉</td>
+				</tr>
+				<tr>
+					<td colspan="2">备注：锻炼包括1.颈保眼保腰保2.攥拳提肛3.平板支撑仰卧卷腹</td>
+				</tr>
+			</table>
+		</article>
+	</main>
+	<div id="foot"></div>
+	<div title="跳转" class="square">
+	<ul>
+		<li><a href="../homepage.html">首页</a></li>
+		<li><a href="../programming.html">编程</a>
+			<ul>
+				<li><a href="">HTML</a></li>
+				<li><a href="">CSS</a></li>
+				<li><a href="">JS</a></li>
+				<li><a href="">单词</a></li>
+			</ul>
+		</li>
+		<li><a href="../health.html">健康</a>
+			<ul>
+				<li><a href="">运动</a></li>
+				<li><a href="">餐饮</a></li>
+				<li><a href="">医药</a></li>
+			</ul>
+		</li>
+		<li><a href="plan">计划</a></li>
+	</ul>
+	</div>
+	<a title="首页" class="circle" href="../homepage.html"></a>
+	<a title="顶部" class="triangleTop" href="#head"></a>
+	<a title="底部" class="triangleBottom" href="#foot"></a>
+	
+</body>
+</html>

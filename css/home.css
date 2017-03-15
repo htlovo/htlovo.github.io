@@ -1,7 +1,10 @@
 
 	/*导航链接*/
+	h1{
+		text-align:center;
+	}
 	nav a,header>a,header>div,main,aside,footer{
-		box-shadow: 1px 1px 1px 1px #aaf;
+		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
 	} 
 	nav a{
 		transition: all 0.1s linear 0s;
@@ -16,20 +19,18 @@
 	}
 	nav a:hover,nav a:focus{
 		color: #fff;
-		background-color: #99f;
-		box-shadow: -1px -1px 0 0 #555 inset, -1px -1px 0 0 #99f,1px 1px 1px 1px #aaf;
+		background-color: #77f;
+		box-shadow: 1px 1px 1px 0px #000,1px 1px 1px 1px #aaf;
 	}
 	nav a:active{
 		background-color: #009;
 		box-shadow: 1px 1px 1px 0 black inset;
 	}
-	nav li{
-		margin:2px;
-	}
 	nav li li a,nav li a{
-		background-color: #aaa;
+		background-color: #aaf;
 	}
-	.thisNav{
+	nav a.thisNav{
+	box-shadow:1px 1px 1px 1px #000,2px 2px 1px 2px #aaf;
 	color: #fff;
 	background-color: #009;
 	}
@@ -72,7 +73,7 @@
 			left:2.5em;
 			top:1em;
 			z-index: 1;
-			background-color: #ccc;
+			background-color: #ccf;
 			clear: both;
 			border-radius: 1.5em;
 		}
@@ -85,6 +86,9 @@
 		}
 		header li:hover ul{
 			display: block;
+		}
+		header nav a{
+			margin-right:2px;
 		}
 /*body*/
 .body{
@@ -102,7 +106,7 @@ aside{
 }
 aside nav{
 	width: 4em;
-	background-color: #ccc;
+	background-color: #ccf;
 	position: relative;
 	left:0.5em;
 	border-radius:2.5em;
@@ -111,19 +115,23 @@ aside nav li ul{
 	float: left;
 	position:absolute;
 	left:4em;
-	top: -2px;
+	top: 2px;
 	display: none;
 }
 aside nav li:hover ul{
 	display: block;
 }
+aside nav a{
+	margin-bottom:2px;
+}
 /*main*/
 
 /*bodymain*/
 .body main{
+	margin:0 0 1em 0;
 	width:80%;
 	width:calc(100% - 7.5em);
-	min-width: 25em;
+	min-width: 23.5em;
 	float:right;
 	min-height: calc(100% - 1.5em);
 }

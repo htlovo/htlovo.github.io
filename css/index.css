@@ -14,8 +14,8 @@ html{
 	min-height: 100%;
 }
 body{
-	margin-top: 1em;
-	height:calc(100% - 1em);
+	margin: 1em 0;
+	height:calc(100% - 2em);
 	font-family: "宋体";
 	font-size: 16px;
 	background-color: #efe;
@@ -23,13 +23,12 @@ body{
 main{
 	padding: 0.75em 0.75em;
 	border-radius: 2.5em 2.5em 0 2.5em;
-	background-color: #eee;
 }
 header,.body,footer{
 	margin: 1em auto;
 	width:90%;
 	min-width: 30em;
-	background-color: #eee;
+	background-color: #eef;
 }
 header:after,.body:after,aside:after{
 	content: "";
@@ -37,25 +36,24 @@ header:after,.body:after,aside:after{
 	clear: both;
 } 
 header>*,.body>*,footer>*{
-	background-color: #ddd;
+	background-color: #ddf;
 }
 a{
-	color: #00f;
+	color: #0b0;
 	background-color: transparent;
 	border: none;
 }
 a:hover{
-	color:#00b;
+	color:#00f;
 }
 a:active{
-	color: #005;
+	color: #050;
 }
 li{
 	list-style: none;
 }
 h1{
 	font: 2em/1.5em 黑体;
-	text-align: center;
 }
 p{
 	text-indent: 1em;
@@ -113,7 +111,7 @@ footer{
 	height: 1em;
 }
 .square>ul{
-	background-color: #eee;
+	background-color: #aaf;
 	display: none;
 	position: absolute;
 	right: -1em;
