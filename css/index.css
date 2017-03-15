@@ -45,12 +45,12 @@ header>*,.body>*,footer>*{
 	background-color: #ddf;
 }
 a{
-	color: #0b0;
+	color: #00f;
 	background-color: transparent;
 	border: none;
 }
 a:hover{
-	color:#00f;
+	color:#005;
 }
 a:active{
 	color: #050;
@@ -117,7 +117,7 @@ footer{
 	height: 1em;
 }
 .square>ul{
-	background-color: #aaf;
+	background-color: #ddf;
 	display: none;
 	position: absolute;
 	right: -1em;
