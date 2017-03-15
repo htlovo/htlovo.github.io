@@ -122,10 +122,10 @@ aside nav li:hover ul{
 /*bodymain*/
 .body main{
 	width:80%;
-	width:calc(100% - 6em);
+	width:calc(100% - 7.5em);
 	min-width: 25em;
 	float:right;
-	min-height: calc(100% - 5em);
+	min-height: calc(100% - 1.5em);
 }
 /*表单*/
 fieldset{
