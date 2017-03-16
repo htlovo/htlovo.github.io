@@ -13,7 +13,7 @@ function b(c) {
 		d.setAttribute("style","display:none;");
 	}
 	d=c.getElementsByTagName("img")[0];
-	d.style.display="block";
-	d.style.float="right"
+	d.style.display="inline-block";
+	d.style.cssFloat="right";
 }
 window.onload=a;

@@ -23,6 +23,7 @@ header,footer{
 	min-width: 20em;
 }
 article.picture-text li{
+	overflow:hidden;
 	margin-top: 0.5em;
 	list-style-type: none;
 	border-radius: 0.5em;
