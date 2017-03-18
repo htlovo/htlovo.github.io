@@ -20,11 +20,15 @@ html{
 	min-height: 100%;
 }
 body{
+	background-color: #efe;
+	background-image: url();
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 	margin: 1em 0;
 	height:calc(100% - 2em);
 	font-family: "宋体";
 	font-size: 16px;
-	background-color: #efe;
 }
 main{
 	padding: 0.75em 0.75em;

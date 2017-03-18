@@ -1,28 +1,39 @@
-/*纯文本内容*/
 article h1{
 	text-align: center;
+}
+h2{
+	font:1.5em/1em 黑体;
 }
 main{
 	background-color: #ddf;
 	margin: 1em auto;
-	width: calc(100% - 5em);
-	min-width: 20em;
+	width:90%;
+	width: calc(100% - 3.5em);
+	min-width: 18.5em;
 	box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
 }
+header,footer{
+	width: calc(100% - 3.5em);
+	min-width: 18.5em;
+}
+/*多列表文章*/
 ul,ol{
 	border-radius: 0.5em;
 	background-color: #ccf;
-	padding: 0.5em;
+	padding: 0.15em;
 }
 ul ul,ol ol,ul ol,ol ul{
 	border-radius: 0.5em;
-	padding: 0.5em;
+	padding: 0.25em;
 	background-color: #bbf;
 }
 li{
+	margin-top: 0.125em;
 	overflow: hidden;
 	list-style-position:  inside;
 	background-color: #aaf;
+	border-radius: 0.25em;
+	padding:0.075em;
 }
 li li{
 	background-color: #99f;
@@ -38,4 +49,18 @@ ol li{
 }
 ol ol>li,ul ol>li{
 	list-style-type: decimal;
+}
+/*多段落文章*/
+/*图文混排*/
+h1~img{
+	width:100%;
+}
+li img{
+	max-width: 20em;
+	display: inline-block;
+	float:right;
+}
+article.picture-text li{
+	overflow:hidden;
+	list-style-type: none;
 }
