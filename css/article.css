@@ -71,6 +71,7 @@ article.picture-text li{
 }
 /*表格*/
 table{
+	width:100%;
 	margin: 0 auto;
 }
 table caption{
