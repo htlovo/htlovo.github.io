@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			border: 3px solid;
+			margin:3px;
+		}
+		html{height:200px;
+			min-height: 100%;
+		}
+		body{
+			height: 100%;
+			background-color: #efe;
+		}
+		body>div{
+			background-color: #eef;
+			border-color: #000; 
+		}
+		body>div>div{
+			background-color: #ddf;
+			border-color: #500;
+		}
+		body>div>div>div{
+			background-color: #ccf;
+			border-color: #700;
+		}
+		body>div>div>div>div{
+			background-color: #bbf;
+			border-color: #900;
+		}
+		body>div>div>div>div>div{
+			background-color: #aaf;
+			border-color: #b00;
+		}
+		body>div>div>div>div>div>div{
+			background-color: #99f;
+			border-color: #d00;
+		}
+		.a{
+			min-height: 100%;
+		}
+		.aa{
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+<div class="a">
+	<div class="aa">
+		<div class="aaa">
+			<div class="aaaa">
+				<div class="aaaaa">
+					<div class="aaaaaa">
+						aaa
+					</div>
+				</div>
+				<div class="aaaab">
+					<div class="aaaaba">
+						aaa
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ab">
+		<div class="aba">
+			aaa
+		</div>
+	</div>
+	<div class="ac">
+		<div class="aca">
+			aaa
+		</div>
+	</div>
+	<div class="ad">
+		<div class="ada">
+			aaa
+		</div>
+	</div>
+	<div class="ae">
+		<div class="aea">
+			aaa
+		</div>
+	</div>
+
+</div>
+	<script type="text/javascript">
+	var element = document.createElement("div"); 
+element.className = "message"; 
+ 
+var textNode = document.createTextNode("Hello world!"); 
+element.appendChild(textNode); 
+ 
+document.body.appendChild(element); 
+ 
+var newNode = textNode.splitText(5); 
+alert(element.firstChild.nodeValue);    //"Hello" 
+alert(newNode.nodeValue);              //" world!" 
+alert(element.childNodes.length);       //2 
+	</script>
+</body>
+</html>
