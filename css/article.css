@@ -10,6 +10,7 @@ main{
 	width:90%;
 	width: calc(100% - 3.5em);
 	min-width: 18.5em;
+	max-width: 60.5em;
 	box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
 }
 header,footer{
@@ -64,6 +65,9 @@ li img{
 	max-width: 20em;
 	display: inline-block;
 	float:right;
+}
+article.picture-text li:hover{
+	cursor: pointer;
 }
 article.picture-text li{
 	overflow:hidden;
