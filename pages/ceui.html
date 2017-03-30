@@ -87,11 +87,18 @@
 
 </div>
 	<script type="text/javascript">
-	var a = 1;
-	var d=0;
-	var c=2;
-	var b=new Object();
-alert(d&&a);  
+	var a=10;
+	switch (a) {
+	case 2:
+	case 10:
+		alert(a++)// 一些很酷的事情
+		break;
+	case 42:
+		alert(a++);// 另一些事情
+		break;
+	default:
+		;// 备用方案
+}
 	</script>
 </body>
 </html>

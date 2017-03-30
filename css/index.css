@@ -38,6 +38,9 @@ header,.body,footer{
 	margin: 1em auto;
 	width:90%;
 	min-width: 30em;
+}
+footer{
+	
 	background-color: #eef;
 }
 header:after,.body:after,aside:after{
