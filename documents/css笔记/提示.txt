@@ -1,0 +1,5 @@
+RGBA 颜色值：rgba(red, green, blue, alpha)
+	alpha 参数是介于0.0（完全透明）与 1.0（完全不透明）的数字。
+HSLA 颜色值：hsla(hue, saturation, lightness, alpha)
+	hue（色调）、saturation（饱和度）、lightness（亮度）表示颜色柱面坐标表示法。其中的 alpha 参数定义不透明度。alpha 参数是介于0.0（完全透明）与1.0（完全不透明）的数字。
+box-shadow绘制在outline之下
