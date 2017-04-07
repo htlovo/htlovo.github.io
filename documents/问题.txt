@@ -58,3 +58,4 @@ alert(a == c);		// true
 alert(b == c);		// true
 alert(a == b);		// false
 alert(c == d);		// true
+5.建议css中的最小最大值可以指定多个
