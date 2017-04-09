@@ -89,5 +89,15 @@
 
 </div>
 	<script type="text/javascript">
+
+var str="Every man in the world! Every woman on earth!";
+patt=/man/g;
+str2=str.replace(patt,"person");
+document.write(str2+"<br />");
+patt.compile(/(wo)?man/g); 
+str2=str.replace(patt,"person");
+document.write(str2);
+
+	</script>
 </body>
 </html>

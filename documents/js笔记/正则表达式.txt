@@ -1,9 +1,0 @@
-正则表达式			regular expressions
-正则表达式分支		regexp choice
-正则表达式序列		regexp sequence
-正则表达式因子		regexp factor
-正则表达式转义		regexp escape
-正则表达式分组		regexp group
-正则表达式字符集	regexp class
-正则表达式字符转义	regexp class escape
-正则表达式量词		regexp quantifier
