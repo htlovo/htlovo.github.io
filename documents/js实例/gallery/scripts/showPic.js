@@ -57,7 +57,7 @@ function prepareGallery(){
  	}
  }
 addLoadEvent(prepareGallery);
-addLoadEvent(preparePlaceholder)
+addLoadEvent(preparePlaceholder);
 function preparePlaceholder(){
 	if(!document.createElement) return false;
 	if(!document.createTextNode) return false;

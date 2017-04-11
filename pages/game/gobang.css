@@ -1,9 +1,32 @@
-#start{
-	width:75px;
+/*首行信息*/
+p{
+	margin:0;
+}
+#control{
+	width:750px;
 	margin: 0 auto;
 	text-align: center;
+	font-size: 20px;
+}
+#control:after{
+	content: "";
+	display:table;
+	clear: both;
+} 
+#player{
+	color: #00f;
 	font-size: 30px;
 }
+#tip{
+	font-size: 40px;
+}
+#start{
+	font-size: 20px;
+}
+#start:hover{
+	cursor: pointer;
+}
+/*棋盘*/
 #board{
 	margin: 0 auto;
 	background-color: #afa;

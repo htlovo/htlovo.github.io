@@ -19,7 +19,7 @@ DOM1
 	1. nodeName 和nodeValue 属性这两个属性的值完全取决于节点的类型。 
 	if (someNode.nodeType == 1){ 
 	    value = someNode.nodeName;    //nodeName 的值是元素的标签名 
-	}  
+	}
 	对于元素节点，nodeName 中保存的始终都是元素的标签名，而nodeValue 的值则始终为null。 
 
 	2.节点关系
