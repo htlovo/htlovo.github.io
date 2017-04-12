@@ -1,4 +1,4 @@
-
+//旧浏览器不支持渐变，悔棋，和棋，吃自己的子为该提自己的子，微信上清空不了背景，棋子字的位置垂直方向不在中间
 	var board = document.getElementById('board');
 	var square = board.getElementsByTagName('div');
 	var player= document.getElementById('player');
@@ -101,7 +101,7 @@
 		bwiizi.style.color=iizi.style.color;
 		bwiizi.firstChild.nodeValue=iizi.firstChild.nodeValue;
 		bwiizi.style.background="radial-gradient(#ec0 69%, transparent 0) ";
-		iizi.style=" ";
+		iizi.style="";
 		iizi.firstChild.nodeValue=" ";
 	}
 	//定义棋子行走规则，符合返回true，否则返回false
