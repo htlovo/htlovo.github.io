@@ -101,7 +101,7 @@
 		bwiizi.style.color=iizi.style.color;
 		bwiizi.firstChild.nodeValue=iizi.firstChild.nodeValue;
 		bwiizi.style.background="radial-gradient(#ec0 69%, transparent 0) ";
-		iizi.style="";
+		iizi.style=" ";
 		iizi.firstChild.nodeValue=" ";
 	}
 	//定义棋子行走规则，符合返回true，否则返回false
