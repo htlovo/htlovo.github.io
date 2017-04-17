@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8" />
+	<title>测试页</title>
 	<style type="text/css">
+	body{
+		-moz-user-select:none;
+		user-select:none;
+	}
 		div{
 			border: 3px solid;
 			margin:3px;
@@ -82,20 +87,30 @@
 		</div>
 	</div>
 	<div class="ae">
-		<div class="aea">
+		<div class="aea" id="ae">
 			aaa
 		</div>
 	</div>
 
 </div>
-	<script type="text/javascript">
 
-var str="abcdcdfgcc";
-patt=/c(?=[^c])d/g;
-alert(patt.test(str))
-str2=str.replace(patt,"z");
-document.write(str2+"<br />");
-
-	</script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript">
+EventUtil.addHandler(window,"load",function (event) {
+		event=EventUtil.getEvent(event);
+		var target=EventUtil.getTarget(event);
+		console.log(typeof(target)+"\n\n"+target.toString());
+		var aea= document.getElementById('ae');
+		EventUtil.addHandler(aea,"dbclick",function (event) {
+			event=EventUtil.getEvent(event);
+			EventUtil.preventDefault(event);
+		});
+		EventUtil.addHandler(aea.firstChild,"dbclick",function (event) {
+			event=EventUtil.getEvent(event);
+			EventUtil.preventDefault(event);
+		});
+})
+	
+</script>
 </body>
 </html>
