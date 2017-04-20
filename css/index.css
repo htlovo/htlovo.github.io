@@ -3,10 +3,10 @@ article, aside, details, div, dt, figcaption, footer, form, header, hgroup, html
     display: block;
 }
 ul,ol,ul ul,ol ol,ul ol,ol ul{
-	background-color: #ccf;
+	background-color: #cfc;
 }
 ul ul,ol ol,ul ol,ol ul{
-	background-color: #bbf;
+	background-color: #bfb;
 }
 *{
 	border:none;
@@ -41,7 +41,7 @@ header,.body,footer{
 }
 footer{
 	
-	background-color: #eef;
+	background-color: #efe;
 }
 header:after,.body:after,aside:after{
 	content: "";
@@ -49,7 +49,7 @@ header:after,.body:after,aside:after{
 	clear: both;
 } 
 header>*,.body>*,footer>*{
-	background-color: #ddf;
+	background-color: #dfd;
 }
 a{
 	color: #00f;
@@ -124,7 +124,7 @@ footer{
 	height: 1em;
 }
 .square>ul{
-	background-color: #ddf;
+	background-color: #dfd;
 	display: none;
 	position: absolute;
 	right: -1em;

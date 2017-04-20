@@ -5,13 +5,13 @@ h2{
 	font:1.5em/1em 黑体;
 }
 main{
-	background-color: #ddf;
+	background-color: #dfd;
 	margin: 1em auto;
 	width:90%;
 	width: calc(100% - 3.5em);
 	min-width: 18.5em;
 	max-width: 60.5em;
-	box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
+	box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #afa;
 }
 header,footer{
 	width: calc(100% - 3.5em);
@@ -20,24 +20,24 @@ header,footer{
 /*列表*/
 ul,ol,dl{
 	border-radius: 0.5em;
-	background-color: #ccf;
+	background-color: #cfc;
 	padding: 0.15em;
 }
 ul ul,ol ol,ul ol,ol ul{
 	border-radius: 0.5em;
 	padding: 0.25em;
-	background-color: #bbf;
+	background-color: #bfb;
 }
 li,dd{
 	margin-top: 0.125em;
 	overflow: hidden;
 	list-style-position:  inside;
-	background-color: #aaf;
+	background-color: #afa;
 	border-radius: 0.25em;
 	padding:0.075em;
 }
 li li{
-	background-color: #99f;
+	background-color: #9f9;
 }
 ul li{
 	list-style-type: circle;
@@ -81,11 +81,11 @@ table{
 table caption{
 	font-size:1.25em;
 	padding:0.5em;
-	background-color: #66f;
+	background-color: #6f6;
 }
 table th{
-	background-color: #99f;
+	background-color: #9f9;
 }
 table td{
-	background-color: #ccf;
+	background-color: #cfc;
 }

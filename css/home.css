@@ -4,7 +4,7 @@
 		text-align:center;
 	}
 	nav a,header>a,header>div,main,aside,footer{
-		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
+		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #afa;
 	} 
 	nav a{
 		transition: all 0.1s linear 0s;
@@ -31,7 +31,7 @@
 		background-color: transparent;
 	}
 	nav li li a,nav li a{
-		background-color: #aaf;
+		background-color: #afa;
 	}
 	nav a.thisNav{
 	box-shadow:1px 1px 1px 1px #000,2px 2px 1px 2px #aaf;
@@ -77,7 +77,7 @@
 			left:2.5em;
 			top:1em;
 			z-index: 1;
-			background-color: #ccf;
+			background-color: #cfc;
 			clear: both;
 			border-radius: 1.5em;
 		}
@@ -110,7 +110,7 @@ aside{
 }
 aside nav{
 	width: 4em;
-	background-color: #ccf;
+	background-color: #cfc;
 	position: relative;
 	left:0.5em;
 	border-radius:2.5em;
@@ -140,7 +140,7 @@ aside nav a{
 	min-height: calc(100% - 1.5em);
 }
 section{
-	background-color: #bbf;
+	background-color: #bfb;
 	margin:1em 0;
 }
 section ul{
