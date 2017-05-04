@@ -3,15 +3,15 @@
 	h1{
 		text-align:center;
 	}
-	nav a,header>a,header>div,main,aside,footer{
-		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #afa;
-	} 
+	/*nav a,header>a,header>div,main,aside,footer{
+		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
+	} */
 	nav a{
 		transition: all 0.1s linear 0s;
 		line-height: 3em;
 		text-align: center;
 		display: block;
-		width:4em;
+		width:3em;
 		border-radius: 1.5em 1.5em 1.5em 1.5em;
 	}
 	nav a:link,nav a:visited{
@@ -19,8 +19,8 @@
 	}
 	nav a:hover,nav a:focus{
 		color: #fff;
-		background-color: #77f;
-		box-shadow: 1px 1px 1px 0px #000,1px 1px 1px 1px #aaf;
+		background-color: #77f;/*
+		box-shadow: 1px 1px 1px 0px #000,1px 1px 1px 1px #aaf;*/
 	}
 	nav a:active{
 		background-color: #009;
@@ -31,7 +31,7 @@
 		background-color: transparent;
 	}
 	nav li li a,nav li a{
-		background-color: #afa;
+		background-color: #aaf;
 	}
 	nav a.thisNav{
 	box-shadow:1px 1px 1px 1px #000,2px 2px 1px 2px #aaf;
@@ -53,11 +53,11 @@
 		background-image: url(../images/fly100.png);
 		-webkit-background-size: cover;
 		background-size: cover;
-		border-radius: 0 2.5em 2.5em 2.5em;
+		border-radius: 0 0 1.5em 0;
 	}
 	/*链接*/
 	header>div{
-		border-radius: 2.5em 0 2.5em 2.5em;
+		border-radius: 0 0 0 1.5em;
 		position: relative;
 		float: right;
 		width: calc(100% - 6em);
@@ -74,10 +74,10 @@
 		/*头部导航*/
 		header nav{
 			position: absolute;
-			left:2.5em;
+			left:1em;
 			top:1em;
 			z-index: 1;
-			background-color: #cfc;
+			background-color: #ccf;
 			clear: both;
 			border-radius: 1.5em;
 		}
@@ -96,24 +96,24 @@
 		}
 /*body*/
 .body{
-	height:calc(100% - 10em);
-	min-height:20em;
+	height:calc(100% - 9em);
+	min-height:22.5em;
 }
 
 /*bodyaside*/
 aside{
-	min-height: calc(100% - 5em);
-	padding: 2.5em 0;
+	min-height: calc(100% - 1em);
+	padding-top: 1em;
 	width: 5em;
 	float:left;
-	border-radius: 2.5em 2.5em 2.5em 0;
+	border-radius: 0 1.5em 0 0;
 }
 aside nav{
-	width: 4em;
-	background-color: #cfc;
+	width: 3em;
+	background-color: #ccf;
 	position: relative;
-	left:0.5em;
-	border-radius:2.5em;
+	left:1em;
+	border-radius:1.5em;
 }
 aside nav li ul{
 	float: left;

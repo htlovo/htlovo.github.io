@@ -20,28 +20,35 @@ html{
 	min-height: 100%;
 }
 body{
-	background-color: #efe;
+	background-color: #fff;
 	background-image: url();
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	margin: 1em 0;
-	height:calc(100% - 2em);
+	margin: 0;
+	height:100%;
 	font-family: "宋体";
 	font-size: 16px;
 }
 main{
 	padding: 0.75em 0.75em;
-	border-radius: 2.5em 2.5em 0 2.5em;
+	border-radius: 1.5em 0 0 0;
+}
+header,.body{
+	margin: 0 0 1em 0;
+}
+header{
+	background-color: #eef;
+}
+.body{
+	background-color: #efe
 }
 header,.body,footer{
-	margin: 1em auto;
-	width:90%;
+	width:100%;
 	min-width: 30em;
 }
 footer{
-	
-	background-color: #efe;
+	background-color: #ddd;
 }
 header:after,.body:after,aside:after{
 	content: "";
@@ -49,6 +56,9 @@ header:after,.body:after,aside:after{
 	clear: both;
 } 
 header>*,.body>*,footer>*{
+	background-color: #ddf;
+}
+.body>main{
 	background-color: #dfd;
 }
 a{
@@ -91,27 +101,27 @@ footer{
 	border: none;
 }
 .circle{
-	border:1em solid #000;
-	border-radius: 1.5em;
+	border:1em solid rgba(0,0,0,0.5);
+	border-radius: 1em;
 	left: 0;
 	top: 0;
 }
 .triangleTop{
 	left: 0;
-	border-bottom: 1.732em solid #000;
+	border-bottom: 1.732em solid rgba(0,0,0,0.5);
 	border-left: 1em solid transparent;
 	border-right: 1em solid transparent;
 	bottom: 0;
 }
 .triangleBottom{
 	right: 0;
-	border-top: 1.732em solid #000;
+	border-top: 1.732em solid rgba(0,0,0,0.5);
 	border-left: 1em solid transparent;
 	border-right: 1em solid transparent;
 	top: 0;
 }
 .square{
-	border:1em solid #000;
+	border:1em solid rgba(0,0,0,0.5);
 	right: 0;
 	bottom: 0;
 }
