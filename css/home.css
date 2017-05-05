@@ -62,7 +62,7 @@
 		float: right;
 		width: calc(100% - 6em);
 		height: 5em;
-		min-width: 25em;
+		min-width: 20em;
 	}
 		/*注册*/
 		header>div>ul{
@@ -96,8 +96,8 @@
 		}
 /*body*/
 .body{
-	height:calc(100% - 9em);
-	min-height:22.5em;
+	height:calc(100% - 7em);
+	min-height:23em;
 }
 
 /*bodyaside*/
@@ -132,12 +132,10 @@ aside nav a{
 
 /*bodymain*/
 .body main{
-	margin:0 0 1em 0;
 	width:80%;
-	width:calc(100% - 7.5em);
-	min-width: 23.5em;
+	width:calc(100% - 8em);
 	float:right;
-	min-height: calc(100% - 1.5em);
+	min-height: calc(100% - 2em);
 }
 section{
 	background-color: #bfb;

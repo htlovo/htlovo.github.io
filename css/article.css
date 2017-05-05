@@ -6,11 +6,9 @@ h2{
 }
 main{
 	background-color: #dfd;
-	margin: 0;
+	margin: 0 auto;
 	width:90%;
 	width: calc(100% - 1.5em);
-	min-width: 18.5em;
-	max-width: 60.5em;
 }
 header,footer{
 	width: calc(100% - 1.5em);
