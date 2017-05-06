@@ -16,26 +16,8 @@ header,footer{
 	min-width: 18.5em;
 }
 /*列表*/
-ul,ol,dl{
-	border-radius: 0.5em;
-	background-color: #cfc;
-	padding: 0.15em;
-}
-ul ul,ol ol,ul ol,ol ul{
-	border-radius: 0.5em;
-	padding: 0.25em;
-	background-color: #bfb;
-}
-li,dd{
-	margin-top: 0.125em;
-	overflow: hidden;
-	list-style-position:  inside;
-	background-color: #afa;
-	border-radius: 0.25em;
-	padding:0.075em;
-}
+
 li li{
-	background-color: #9f9;
 }
 ul li{
 	list-style-type: circle;

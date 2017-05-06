@@ -2,11 +2,24 @@
 article, aside, details, div, dt, figcaption, footer, form, header, hgroup, html, main, nav, article, summary {
     display: block;
 }
-ul,ol,ul ul,ol ol,ul ol,ol ul{
+
+main ul,main ol,main dl{
+	border-radius: 0.5em;
+	background-color: #bfb;
+	padding: 0.15em;
+}
+main ul ul,main ol ol,main ul ol,main ol ul{
+	border-radius: 0.5em;
+	padding: 0.25em;
 	background-color: #cfc;
 }
-ul ul,ol ol,ul ol,ol ul{
-	background-color: #bfb;
+main li,main dd{
+	margin-top: 0.125em;
+	overflow: hidden;
+	list-style-position:  inside;
+	background-color: #dfd;
+	border-radius: 0.25em;
+	padding:0.075em;
 }
 *{
 	border:none;

@@ -6,6 +6,9 @@
 	/*nav a,header>a,header>div,main,aside,footer{
 		box-shadow: 1px 1px 0px 0px #000,1px 1px 1px 1px #aaf;
 	} */
+	nav li{
+		background-color: transparent;
+	}
 	nav a{
 		transition: all 0.1s linear 0s;
 		line-height: 3em;
@@ -146,7 +149,7 @@ section ul{
 	overflow-y: auto;
 }
 section.programming,section.health{
-	width:33.3%;
+	width:30%;
 }
 section.programming{
 	float:left;
