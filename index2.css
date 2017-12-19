@@ -1,0 +1,48 @@
+*{
+	background: transparent;
+	margin:0;
+	padding:0;
+}
+html{
+	background: #000;
+	color: #ddd;
+}
+a{
+	text-decoration:none;
+	color: #ddd;
+	border: none;
+}
+a:hover{
+	color:#fff;
+}
+a:active{
+	color:#fff;
+}
+#qqq *{
+	color: #000;*/
+}
+#qqq{
+	min-height: 100px;
+	width: 80%;
+	min-width: 600px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+#qqq div,#qqq ul,#qqq li{
+	float: left;
+}
+#head{
+	min-height: 100px;
+	width:100%;
+}
+#head ul{
+	width:100%;
+}
+#head li{
+	list-style: none;
+	width:33.333333333%;
+}
+#head li{
+	text-align: center;
+	line-height: 100px;
+}
